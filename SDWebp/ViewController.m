@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.webView=  [[UIWebView alloc] initWithFrame:self.view.bounds];
+    //self.webView.delegate = self;
+    
+    [self.view addSubview:self.webView];
+    
+    
+    NSString *webpURL=@"https://www.baidu.com";
+    
+    NSURL* url = [NSURL URLWithString:webpURL];//创建URL
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];//创建NSURLRequest
+    [self.webView loadRequest:request];//加载
+
 }
 
 

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FHWebPURLProtocol.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [NSURLProtocol registerClass:[FHWebPURLProtocol class]];//注册protocol UIWebView拦截webp协议
+    
+    
+    
     return YES;
 }
 

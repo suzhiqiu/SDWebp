@@ -1,0 +1,61 @@
+          __   __  ____  ____  ____
+         /  \\/  \/  _ \/  _ )/  _ \
+         \       /   __/  _  \   __/
+          \__\__/\____/\_____/__/ ____  ___
+                / _/ /    \    \ /  _ \/ _/
+               /  \_/   / /   \ \   __/  \__
+               \____/____/\_____/_____/____/v0.5.2
+
+Description:
+============
+
+WebP codec: library to encode and decode images in WebP format. This package
+contains an iOS framework that can be used in other applications to add
+WebP support.
+
+See http://developers.google.com/speed/webp
+
+The latest source tree is available at
+https://chromium.googlesource.com/webm/libwebp
+
+It is released under the same license as the WebM project.
+See http://www.webmproject.org/license/software/ or the
+"COPYING" file for details. An additional intellectual
+property rights grant can be found in the file PATENTS.
+
+Files:
+======
+WebP.framework : libwebp headers / library
+
+This framework contains:
+WebP.framework/WebP: Mach-O universal binary with 5 architectures: [i386: current ar archive] [arm_v7] [arm_v7s] [x86_64] [arm64]
+WebP.framework/WebP (for architecture i386):	current ar archive
+WebP.framework/WebP (for architecture armv7):	current ar archive
+WebP.framework/WebP (for architecture armv7s):	current ar archive
+WebP.framework/WebP (for architecture x86_64):	current ar archive
+WebP.framework/WebP (for architecture arm64):	current ar archive
+
+And was built with:
+Xcode 8.1
+Build version 8B62
+iOS SDKs:
+	iOS 10.1                      	-sdk iphoneos10.1
+
+iOS Simulator SDKs:
+	Simulator - iOS 10.1          	-sdk iphonesimulator10.1
+
+macOS SDKs:
+	macOS 10.12                   	-sdk macosx10.12
+
+tvOS SDKs:
+	tvOS 10.0                     	-sdk appletvos10.0
+
+tvOS Simulator SDKs:
+	Simulator - tvOS 10.0         	-sdk appletvsimulator10.0
+
+watchOS SDKs:
+	watchOS 3.1                   	-sdk watchos3.1
+
+watchOS Simulator SDKs:
+	Simulator - watchOS 3.1       	-sdk watchsimulator3.1
+
